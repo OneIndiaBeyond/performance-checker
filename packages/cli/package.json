@@ -1,0 +1,21 @@
+{
+  "name": "@performance-checker/cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "performance-checker": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch"
+  },
+  "dependencies": {
+    "@performance-checker/core": "0.1.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "typescript": "^5.6.3"
+  }
+}
